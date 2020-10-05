@@ -106,24 +106,3 @@ class LinkedList:
 
 
 user = LinkedList()
-
-user.create('Nick', 'nikita_tyupin@mail.ru')
-user.create('Any', 'anynice@mail.ru')
-user.create('David', 'david_d@mail.ru')
-user.create('Zak', 'zakefron@mail.ru')
-user.create('Bob', 'bob_dilan@mail.ru')
-user.create('Yoo', 'yooyaK@mail.ru')
-user.create('Valentine', 'valaya_q@mail.ru')
-user.create('Lolly', 'lolly_=pop@mail.ru')
-user.create('Frank', 'frankyy_poz@mail.ru')
-user.create('Isaak', 'isaak_klark@mail.ru')
-# user.display()
-
-print(len(user))
-
-user.remove_user('valaya_q@mail.ru')
-user.remove_user('isaak_klark@mail.ru')
-user.remove_user('nikita_tyupin@mail.ru')
-
-user.display()
-print(len(user))
